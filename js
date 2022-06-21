@@ -13,3 +13,8 @@ $('#type_coupon').on('change', function() {
             }
         });
 // /on change
+
+// translate in js with laravel
+var translatePhone = {!! json_encode(__('The number should be 11 digits !')) !!};
+alert(translatePhone);
+// /translate in js with laravel
